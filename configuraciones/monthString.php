@@ -59,9 +59,6 @@ class MonthString {
             default:
                 $monthString = "";
         }
-
         return $monthString;
-
     }
-
 }

@@ -55,7 +55,6 @@
           </svg></button>
         </a>
       </div>
-
     </header>
 
     <div class="boxDashboard">

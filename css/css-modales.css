@@ -1,0 +1,110 @@
+#formGanancias{
+    margin-left: 5%;
+}
+
+.divFechas,
+.divTitleFechas{
+    position: relative;
+}
+
+.divFechas{
+    padding: 3%;
+    /*border: 2px solid #000;*/
+    background: #000000;
+    border-radius: 7px;
+    margin: -3% 3% 0 2%;
+    width: 80%;
+    z-index: 2;
+}
+
+.divTitleFechas{
+    display: flex;
+    align-items: center;
+    background-color: rgb(9, 2, 102);
+    border-radius: 5px;
+    width: 40%;
+    text-align: left;
+    height: 6vh;
+    padding: 2% 3%;
+    z-index: 100;
+    box-shadow: 2px 2px 2px #ffffff;
+}
+
+.divFechas{
+    display: flex;
+    flex-direction: row;
+}
+
+.divFechaini,
+.divFechaFin,
+.divBtnConsult {
+    padding: 2%;
+}
+
+.divBtnConsult {
+    margin-top: 1.7em;
+}
+
+.divResultGanancias{
+    display: flex;
+    align-items: center;
+}
+
+.resultGanancias{
+    background: #ffffff;
+    max-width: 60%;
+    max-height: 5vh;
+    margin-top: -2.5%;
+    padding: 0 1%;
+    border-radius: 3px;
+    z-index: 100;
+    box-shadow: 0 3px 3px #000000;
+    font-weight: 400;
+}
+
+.spanGanancias{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.8em;
+}
+
+.pGanancias{
+    font-weight: 800;
+    font-size: 1.1em;
+}
+
+.detallesGanancias{
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.detallesGanancias:hover{
+    box-shadow: 0 0 3px #000;
+}
+
+.containerTableGanancias{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5vh;
+    width: 100%;
+}
+
+.divTableGanancias{
+    display: grid;
+    place-content: center;
+    width: 60%;
+}
+
+.tableGanancias, 
+.tableGanancias td, 
+.tableGanancias th{
+    border: 1px solid #000;
+    border-collapse: collapse;
+    padding: 0.3em 0.5em;
+    text-align: center;
+}
+
+.tableGanancias th {
+    background: #000;
+    color: white;
+}

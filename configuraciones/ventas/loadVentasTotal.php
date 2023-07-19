@@ -45,7 +45,7 @@ if($num_rows > 0){
             $html .= '<td>'.$row['fechaVenta'].'</td>';//Columnas
             $html .= '<td>$'.$row['precioTotal'].'</td>';//Columnas
             $html .= '<td>$'.$row['ganancia'].'</td>';//Columnas
-            $html .= '<td><a data-bs-toggle="modal" data-bs-target="#modalDelVentTotal" class = "tdOptionDelete" onclick = "eliminarVentaTotal('."$idVenta".','."$idProducto".','."$stockInicial".')">Eliminar</a></td>';//Columnas
+            $html .= '<td><a data-bs-toggle="modal" data-bs-target="#modalDelVentTotal" class = "tdOptionDelete" onclick = "eliminarVentaTotal('."$idVenta".','."$idProducto".','."$stockInicial".')"><i class="fa-solid fa-trash"></i></a></td>';//Columnas
         $html .= '</tr>';
     }
 }else{

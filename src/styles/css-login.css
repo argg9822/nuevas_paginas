@@ -4,6 +4,18 @@
     box-sizing: border-box;
 }
 
+.App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  
+
 body, html{
     height: 100%;
 }
@@ -58,12 +70,14 @@ hr{
     width: 96%;
 }
 
-.div-formulario-login form input{
-    width: 90%;
-    height: 2em;
+.input-login{
+    width: 40%;
+    height: 3em;
     border-top: none;
     border-left: none;    
     transition: all ease-in 0.3s;
+    border-radius: 9px;
+    padding-left: 2%;
 }
 
 .div-formulario-login form .input-login:focus{

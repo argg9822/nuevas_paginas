@@ -1,0 +1,13 @@
+
+.divAdd{
+    margin-left: 3%;
+    background-color: azure;
+    border-radius: 5px;
+    padding: 8px;
+    width: 30%;
+}
+
+.container:nth-child(2){
+    margin-top: 15vh;
+    margin-bottom: 15vh;
+}

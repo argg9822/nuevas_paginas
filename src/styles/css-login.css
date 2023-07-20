@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html{
+    height: 100%;
+}
+
+h6{
+    color: rgb(141, 10, 10);
+    border: 1px solid rgb(141, 10, 10);
+    padding: 1%;
+    text-align: center;
+    border-radius: 3px;
+}
+
+.bg-image,
+.container-login {
+    margin-top: 80px;
+    height: 100%;
+}
+
+.bg-image{
+    background-image: url("https://wallpaperaccess.com/full/2877777.jpg");
+    filter: blur(8px);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: -2;
+}
+
+.container-login{
+    position: absolute;
+    padding: 0 20% 10% 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    z-index: 2;
+    width: 100%;
+    top: 0;
+}
+
+.div-formulario-login{
+    width: 40%;
+    max-height: 62vh;
+    display: block;
+    margin-top: 5%;
+    padding: 3% 5% 5% 5%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 3px #000000;
+    background-color: rgba(255, 255, 255, 1);
+}
+
+hr{
+    width: 96%;
+}
+
+.div-formulario-login form input{
+    width: 90%;
+    height: 2em;
+    border-top: none;
+    border-left: none;    
+    transition: all ease-in 0.3s;
+}
+
+.div-formulario-login form .input-login:focus{
+    outline: none;
+    border-color: rgb(62, 80, 182);
+    box-shadow: 1px 1px 3px 1px rgb(62, 80, 182);
+    width: 100%;
+    height: 2.5em;
+    padding-left: 3%;
+    font-size: 1.1em;
+}
+
+.div-formulario-login form .btn-login{
+    height: 40px;
+    margin-top: 10%;
+    background-color: rgb(2, 9, 100);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    color: rgba(255, 255, 255, 1);
+    text-align: center;
+    transition: all ease-in 0.3s;
+}
+
+.div-formulario-login form .btn-login:hover{
+    box-shadow: 0 0 4px 0 rgb(2, 9, 100);
+    background-color: rgb(255, 255, 255);
+    color: rgb(2, 9, 100);
+    border: 2px solid rgb(2, 9, 100);
+    font-weight: bold;
+}
+
+
+
+
+
+
+

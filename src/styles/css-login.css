@@ -4,20 +4,60 @@
     box-sizing: border-box;
 }
 
+.color{
+    color: #000;
+}
+
 .App-header {
-    background-color: #282c34;
-    min-height: 100vh;
+    background-color: #ffffff;
+    min-height: 97vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     font-size: calc(10px + 2vmin);
     color: white;
-  }
-  
+}
 
-body, html{
-    height: 100%;
+h1{
+    margin-bottom: 2%;
+}
+
+.input-login{
+    width: 40%;
+    height: 3em;
+    border: 3px solid rgb(62, 80, 182);    
+    transition: all ease-in 0.3s;
+    border-radius: 9px;
+    padding-left: 2%;
+    margin: 5px 0;
+}
+
+.input-login:focus{
+    outline: none;
+    border-color: rgb(29, 90, 0);
+    padding-left: 3%;
+}
+
+.btn-login{
+    height: 40px;
+    width: 40%;
+    margin: 2%;
+    background-color: rgba(0, 97, 90, 0.993);
+    font-weight: bold;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    color: rgba(255, 255, 255, 1);
+    transition: all ease-in 0.1s;
+}
+  
+.btn-login:hover{
+    background-color: rgb(0, 95, 90);
+    color: rgb(255, 255, 255);
+    border-top: 4px solid rgba(0, 75, 70);
+    border-left: 4px solid rgb(0, 75, 70);
+    font-weight: bold;
 }
 
 h6{
@@ -68,47 +108,6 @@ h6{
 
 hr{
     width: 96%;
-}
-
-.input-login{
-    width: 40%;
-    height: 3em;
-    border-top: none;
-    border-left: none;    
-    transition: all ease-in 0.3s;
-    border-radius: 9px;
-    padding-left: 2%;
-}
-
-.div-formulario-login form .input-login:focus{
-    outline: none;
-    border-color: rgb(62, 80, 182);
-    box-shadow: 1px 1px 3px 1px rgb(62, 80, 182);
-    width: 100%;
-    height: 2.5em;
-    padding-left: 3%;
-    font-size: 1.1em;
-}
-
-.div-formulario-login form .btn-login{
-    height: 40px;
-    margin-top: 10%;
-    background-color: rgb(2, 9, 100);
-    border: none;
-    border-radius: 50px;
-    cursor: pointer;
-    transition: all 0.3s ease 0s;
-    color: rgba(255, 255, 255, 1);
-    text-align: center;
-    transition: all ease-in 0.3s;
-}
-
-.div-formulario-login form .btn-login:hover{
-    box-shadow: 0 0 4px 0 rgb(2, 9, 100);
-    background-color: rgb(255, 255, 255);
-    color: rgb(2, 9, 100);
-    border: 2px solid rgb(2, 9, 100);
-    font-weight: bold;
 }
 
 

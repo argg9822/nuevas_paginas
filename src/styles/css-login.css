@@ -63,7 +63,6 @@ a:hover {
 }
 
 .App-section {
-    background-color: #ffffff;
     min-height: 90vh;
     position: relative;
     display: flex;
@@ -85,8 +84,13 @@ a:hover {
 }
 
 h1 {
-    margin: 2% 0;
+    margin-top: 2%;
     color: #000000;
+}
+
+h6{
+    margin-bottom: 2%;
+    font-size: 0.6em;
 }
 
 .box-login {

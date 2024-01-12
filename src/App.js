@@ -14,6 +14,7 @@ function App() {
         </div>
         <div className='flex-column flex-center w-100 box-login'>
           <h1>Nuevas páginas</h1>
+          <h6 className='color'>Papelería y variedades</h6>
           <input type = "text" placeholder = "Usuario" className='input-login'></input>
           <input type = "password" placeholder = "Contraseña" className='input-login'></input>
           <button type='submit' className='btn-login'>Ingresar</button>

@@ -4,9 +4,9 @@
 
 class Database {
     private $hostname = "localhost";
-    private $database = "id20517865_nuevaspaginas";
-    private $username = "id20517865_variedadesnp";
-    private $password = "BerthaG2023*+";
+    private $database = "";
+    private $username = "";
+    private $password = "";
     private $charset = "utf8";
 
     function conectar (){
